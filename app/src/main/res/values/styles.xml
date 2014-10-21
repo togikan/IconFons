@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MainMenuIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="InnerMenuViewsWithPadding">
+        <item name="android:layout_marginLeft">@dimen/inner_view_margin</item>
+        <item name="android:layout_marginRight">@dimen/inner_view_margin</item>
+    </style>
+
+    <style name="EdittextHoloWhite">
+        <item name="android:layout_marginLeft">@dimen/inner_view_margin</item>
+        <item name="android:layout_marginRight">@dimen/inner_view_margin</item>
+        <item name="android:background">@drawable/fontello_edit_text_holo_light</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

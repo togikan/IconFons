@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/banking1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/acme_logo"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        style="@style/EdittextHoloWhite"
+        android:id="@+id/user_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/user_code"/>
+
+
+    <EditText
+        style="@style/EdittextHoloWhite"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/inner_view_margin"
+        android:layout_marginLeft="@dimen/inner_view_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/fontello_btn_default_holo_light"
+            android:text="@string/login"
+            android:textColor="@color/white"/>
+
+        <ToggleButton
+            android:id="@+id/remember"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="@string/remember"
+            android:textColor="@color/white"
+            android:textOff="@string/remember"
+            android:textOn="@string/remember"
+            android:background="@drawable/fontello_btn_toggle_holo_light"/>
+
+        </LinearLayout>
+
+</LinearLayout>

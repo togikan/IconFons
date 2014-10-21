@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IconTextView">
+        <attr name="iconText" format="string" />
+        <attr name="text" format="string" />
+        <attr name="iconSize" format="float" />
+        <attr name="textSize" format="float" />
+        <attr name="alignment" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

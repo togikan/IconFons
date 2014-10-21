@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ACME BANK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mobile_banking">Mobile Banking</string>
+    <string name="mobile_pin">Mobile PIN</string>
+    <string name="accounts">Accounts</string>
+    <string name="cards">Cards</string>
+    <string name="tranfers">Transfers</string>
+    <string name="exchange">Exchange</string>
+    <string name="banking_accounts_icon">\ue001</string>
+    <string name="banking_cards_icon">\ue006</string>
+    <string name="banking_transfers_icon">\ue005</string>
+    <string name="banking_exchange_icon">\ue004</string>
+    <string name="please_select_account">Please select an account</string>
+    <string name="balance">Balance:</string>
+    <string name="user_code"> \ue702 Please enter your user code</string>
+    <string name="password"> \ue701 Please enter your password</string>
+    <string name="login"> \ue703 Login</string>
+    <string name="remember">\ue700</string>
+    <string name="please_select_sender_account">Please select sender account</string>
+    <string name="please_select_receiver_account">Please select receiver account</string>
+
+</resources>

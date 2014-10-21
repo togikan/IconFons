@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/banking1">
+
+    <TextView
+        style="@style/InnerMenuViewsWithPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/please_select_sender_account"
+        android:textColor="@color/white"/>
+
+    <Spinner
+        android:id="@+id/account_spinner_sender"
+        style="@style/InnerMenuViewsWithPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fontello_spinner_background_holo_light"
+        android:prompt="@string/please_select_account"
+        />
+
+    <TextView
+        style="@style/InnerMenuViewsWithPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/please_select_receiver_account"
+        android:textColor="@color/white"/>
+
+    <Spinner
+        android:id="@+id/account_spinner_receiver"
+        style="@style/InnerMenuViewsWithPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:background="@drawable/fontello_spinner_background_holo_light"
+        android:prompt="@string/please_select_account"
+        />
+
+</LinearLayout>

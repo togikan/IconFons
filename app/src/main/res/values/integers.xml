@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="main_menu_icon_size">50</integer>
+    <integer name="main_menu_text_size">30</integer>
+    <integer name="banking_menu_text_size">30</integer>
+    <integer name="banking_menu_icon_size">30</integer>
+
+</resources>
